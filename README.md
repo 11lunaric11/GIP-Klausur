@@ -34,12 +34,14 @@
 
 **Beispiel Wahrheitstafel:**
 ```
-A | B | ¬A | A ∧ B | A ⇔ B
---|---|----|----- |-------
-0 | 0 | 1  | 0    | 1
-0 | 1 | 1  | 0    | 0
-1 | 0 | 0  | 0    | 0
-1 | 1 | 0  | 1    | 1
+| $A$ | $B$ | $\bar{A}$ | $\bar{B}$ | $A \wedge B$ | $A\vee B$ | $A \Rightarrow B$ | $A \Leftrightarrow B$ |
+| --- | --- | --------- | --------- | ------------ | --------- | ----------------- | --------------------- |
+| $F$ | $F$ | $W$       | $W$       | $F$          | $F$       | $W$               | $W$                   |
+| $F$ | $W$ | $W$       | $F$       | $F$          | $W$       | $W$               | $F$                   |
+| $W$ | $F$ | $F$       | $W$       | $F$          | $W$       | $F$               | $F$                   |
+| $W$ | $W$ | $F$       | $F$       | $W$          | $W$       | $W$               | $W$                   |
+
+
 ```
 
 **Online-Tool:** [TruthTable.online](https://truththatble.online/) oder [LogicGates.org](https://www.logic.ly/demo/)
