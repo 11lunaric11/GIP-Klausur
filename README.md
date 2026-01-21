@@ -33,7 +33,7 @@
 - Äquivalenz (A ⇔ B): Wahr wenn beide gleich
 
 **Beispiel Wahrheitstafel:**
-```
+
 | $A$ | $B$ | $\bar{A}$ | $\bar{B}$ | $A \wedge B$ | $A\vee B$ | $A \Rightarrow B$ | $A \Leftrightarrow B$ |
 | --- | --- | --------- | --------- | ------------ | --------- | ----------------- | --------------------- |
 | $F$ | $F$ | $W$       | $W$       | $F$          | $F$       | $W$               | $W$                   |
@@ -41,8 +41,6 @@
 | $W$ | $F$ | $F$       | $W$       | $F$          | $W$       | $F$               | $F$                   |
 | $W$ | $W$ | $F$       | $F$       | $W$          | $W$       | $W$               | $W$                   |
 
-
-```
 
 **Online-Tool:** [TruthTable.online](https://truththatble.online/) oder [LogicGates.org](https://www.logic.ly/demo/)
 - Eingabe: Boole'sche Ausdrücke
