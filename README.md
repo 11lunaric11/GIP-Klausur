@@ -42,7 +42,7 @@
 | $W$ | $W$ | $F$       | $F$       | $W$          | $W$       | $W$               | $W$                   |
 
 
-**Online-Tool:** [TruthTable.online](https://truththatble.online/) oder [LogicGates.org](https://www.logic.ly/demo/)
+**Online-Tool:** [Wahrheitstabelle](https://wahrheitstabelle.daug.de/#/tabelle)
 - Eingabe: Boole'sche Ausdrücke
 - Ausgabe: Automatisch generierte Wahrheitstafeln
 
