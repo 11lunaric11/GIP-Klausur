@@ -201,9 +201,15 @@ Iteration i=4:
 ### Teilaufgabe 3a: Fließkommazahl einlesen (2 Punkte)
 
 ```c
-// Deklaration + Einlesen
-float number;
-scanf("%f", &number);  // %f für float, & = Adresse der Variable
+#include <stdio.h>
+
+int main() {
+    float number;
+    printf("Geben Sie eine Zahl ein: ");
+    scanf("%f", &number);
+    printf("Die eingelesene Zahl lautet: %.2f\n", number);
+    return 0;
+}
 ```
 
 **Online-Tool:** [C Compiler](https://www.onlinegdb.com/) - Teste dein Code!
